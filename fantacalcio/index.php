@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Fantacalcio</title>
-	<link rel="stylesheet" href="stile.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
