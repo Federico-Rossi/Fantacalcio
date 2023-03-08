@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans">
 	<title>Registrazione</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 	<header>
@@ -49,7 +50,7 @@
 			<input type="email" id="email" name="email" required>
 			<input type="submit" value="Registrati">
 		</form>
-		<p>Hai già un account? <a href="index.php">Accedi</a> ora!</p>
+		<p>Hai già un account? <a href="../index.php">Accedi</a> ora!</p>
 	</main>
 	<footer>
 		<p>© 2023 Fantacalcio</p>
