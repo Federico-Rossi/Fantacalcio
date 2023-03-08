@@ -71,3 +71,17 @@ CREATE TABLE IF NOT EXISTS classifica (
     PRIMARY KEY (id),
     FOREIGN KEY (squadra_id) REFERENCES squadre(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
+
+-- Tabella dell'asta
+CREATE TABLE IF NOT EXISTS asta (
+    id INT(11) NOT NULL AUTO_INCREMENT,
+    giocatore_id INT(11) NOT NULL,
+    squadra_id INT(11) NOT NULL,
+    prezzo DECIMAL(10,2) NOT NULL,
+    data_inizio DATETIME NOT NULL,
+    durata INT(11) NOT NULL,
+    descrizione VARCHAR(255) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (giocatore_id) REFERENCES giocatori(id) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (squadra_id) REFERENCES squadre(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
