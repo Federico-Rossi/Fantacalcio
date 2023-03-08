@@ -100,4 +100,7 @@ footer {
   align-items: center;
   justify-content: center;
   font-family: Josefin Sans;
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
 }
