@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 
 /* stili per l'header */
 header {
@@ -100,7 +100,5 @@ footer {
   align-items: center;
   justify-content: center;
   font-family: Josefin Sans;
-  position: fixed;
-  bottom: 0;
-  z-index: 999;
+
 }

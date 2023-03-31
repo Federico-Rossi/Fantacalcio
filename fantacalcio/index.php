@@ -12,7 +12,7 @@
 	<header>
 		<h1>Fantacalcio</h1>
 	</header>
-	<main>
+	<main> 
 		<?php        
 			session_start();
 			// se l'utente è già autenticato, mostra il messaggio di benvenuto
@@ -29,6 +29,7 @@
 			} else {
 				// altrimenti, mostra il form di login e il link alla pagina di registrazione
 				echo "<form action='./API/login.php' method='post'>";
+				echo "<img src='./img/logo.jpg" . "'width='250'> ";
 				echo "<label for='username'>Username:</label>";
 				echo "<input type='text' id='username' name='username' required>";
 				echo "<label for='password'>Password:</label>";

@@ -20,7 +20,7 @@
 			if (isset($_SESSION['username'])) {
 				// distrugge tutte le variabili di sessione
 				session_unset();
-
+ 
 				// distrugge la sessione
 				session_destroy();
 

@@ -10,7 +10,7 @@
 <body>
 	<header>
 		<h1>Login</h1>
-	</header>
+	</header> 
 	<main>
 		<?php
 			// avvia la sessione
