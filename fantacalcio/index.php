@@ -20,10 +20,10 @@
 				echo "<p>Benvenuto, " . $_SESSION['username'] . "!</p>";
 				echo "<p>Seleziona una delle seguenti opzioni:</p>";
 				echo "<ul>";
-				echo "<li><a href='./API/asta.php'>Asta</a></li>";
-				echo "<li><a href='./API/squadra.php'>Squadra</a></li>";
-				echo "<li><a href='./API/partite.php'>Partite</a></li>";
-				echo "<li><a href='./API/classifica.php'>Classifica</a></li>";
+				echo "<li><a href='./pages/asta.php'>Asta</a></li>";
+				echo "<li><a href='./pages/squadra.php'>Squadra</a></li>";
+				echo "<li><a href='./pages/partite.php'>Partite</a></li>";
+				echo "<li><a href='./pages/classifica.php'>Classifica</a></li>";
 				echo "<li><a href='./API/logout.php'>Logout</a></li>";
 				echo "</ul>";
 			} else {
