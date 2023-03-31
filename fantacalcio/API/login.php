@@ -62,6 +62,7 @@
 			}
 		?>
 		<form action="./API/login.php" method="post">
+			<img src="../img/logo.jpg" style="width: 250px;">
 			<label for="username">Username:</label>
 			<input type="text" id="username" name="username" required>
 			<label for="password">Password:</label>
